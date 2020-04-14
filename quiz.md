@@ -35,11 +35,9 @@ The following quiz set is created as an accompanying quiz for knowledge assessme
 	- [ ] `data[['A','B', 'C']].lambda(x*1000)`  
 	- [ ] `data[['A','B', 'C']].apply(lambda x); def x: x*1000`  
 	- [ ] `data[['A','B', 'C']].apply(lambda x: x*1000)`  
-	+2 points
 
 6. Other useful subsetting techniques known as conditional subsetting. This technique use a set of condition to filter our data frame. Say you would like to have a certain data frame that filter the following from your initial data: All column A need to be equal to 0 and Either column B or C need to have the value of: "AVAILABLE" or "IN STOCK". Which of the following will filter the data frame correctly?
  	- [ ] `data[data.A == 0 & data.B.isin(["AVAILABLE", "IN STOCK"] | data.C.isin(["AVAILABLE", "IN STOCK"])) ]`  
 	- [ ] `data[(data.A == 0) & (data[['B',C]].isin(["AVAILABLE", "IN STOCK"]))]`  
 	- [ ] `data[(data.A == 0) & (data.B.isin(["AVAILABLE", "IN STOCK"]) | data.C.isin(["AVAILABLE", "IN STOCK"])) ]`  
 	- [ ] `data[(data.A == 0) & (data.B.isin(["AVAILABLE", "IN STOCK"])) & (data.C.isin(["AVAILABLE", "IN STOCK"])) ]`  
-	+2 points
