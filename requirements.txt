@@ -23,7 +23,7 @@ jsonschema==3.0.1
 jwt==0.6.1
 Mako==1.0.10
 MarkupSafe==1.1.1
-numpy==1.16.3
+numpy==1.22.0
 pandas==0.24.2
 pycparser==2.19
 PyMySQL==0.9.3
