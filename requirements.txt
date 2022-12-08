@@ -4,7 +4,7 @@ arrow==0.13.2
 asn1crypto==0.24.0
 attrs==19.1.0
 blinker==1.4
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.3
 Click==7.0
 cryptography==2.6.1
